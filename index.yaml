@@ -11,4 +11,14 @@ entries:
     urls:
     - https://github.com/helm/examples/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-02T18:36:45.469704022Z"
+  simple-pod:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-03-04T19:29:20.101646735Z"
+    description: A simple Helm chart for deploying a Pod
+    digest: a8459281347d3923acfaa1a3a47d23e291c935bb988c908fe3487f771128293c
+    name: simple-pod
+    urls:
+    - https://github.com/konstan/examples/releases/download/simple-pod-0.1.0/simple-pod-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-03-04T19:29:20.101656273Z"
