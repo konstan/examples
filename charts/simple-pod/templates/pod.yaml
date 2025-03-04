@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: {{ .Values.pod.name }}
+spec:
+  containers:
+    - name: {{ .Values.container.name }}
+      image: {{ .Values.container.image }}
+      command: {{ .Values.container.command }}
+      args:
+        - {{ .Values.container.args | join " " }}

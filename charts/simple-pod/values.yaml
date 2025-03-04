@@ -1,0 +1,8 @@
+pod:
+  name: aces-uc1-pod
+
+container:
+  name: aces-uc1-container
+  image: konstansix/test:aces-uc1
+  command: ["/bin/sh", "-c"]
+  args: ["while true; do date; sleep 5; done"]
